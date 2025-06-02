@@ -1,0 +1,13 @@
+{
+  "name": "bulk-port-checker-server",
+  "version": "1.0.0",
+  "description": "A Node.js server that coordinates a bulk TCP‐port scan in cooperation with a local client over WebSocket.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
+}
